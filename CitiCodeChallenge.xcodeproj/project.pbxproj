@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E6D8582B87D0F700CAEC26 /* CitiCodeChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6D8572B87D0F700CAEC26 /* CitiCodeChallengeApp.swift */; };
+		68E6D85A2B87D0F700CAEC26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6D8592B87D0F700CAEC26 /* ContentView.swift */; };
+		68E6D85C2B87D0FA00CAEC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E6D85B2B87D0FA00CAEC26 /* Assets.xcassets */; };
+		68E6D8602B87D0FA00CAEC26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E6D85F2B87D0FA00CAEC26 /* Preview Assets.xcassets */; };
+		68E6D86A2B87D0FA00CAEC26 /* CitiCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6D8692B87D0FA00CAEC26 /* CitiCodeChallengeTests.swift */; };
+		68E6D8742B87D0FA00CAEC26 /* CitiCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6D8732B87D0FA00CAEC26 /* CitiCodeChallengeUITests.swift */; };
+		68E6D8762B87D0FA00CAEC26 /* CitiCodeChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6D8752B87D0FA00CAEC26 /* CitiCodeChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68E6D8662B87D0FA00CAEC26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E6D84C2B87D0F700CAEC26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E6D8532B87D0F700CAEC26;
+			remoteInfo = CitiCodeChallenge;
+		};
+		68E6D8702B87D0FA00CAEC26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E6D84C2B87D0F700CAEC26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E6D8532B87D0F700CAEC26;
+			remoteInfo = CitiCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68E6D8542B87D0F700CAEC26 /* CitiCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E6D8572B87D0F700CAEC26 /* CitiCodeChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiCodeChallengeApp.swift; sourceTree = "<group>"; };
+		68E6D8592B87D0F700CAEC26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68E6D85B2B87D0FA00CAEC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68E6D85D2B87D0FA00CAEC26 /* CitiCodeChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CitiCodeChallenge.entitlements; sourceTree = "<group>"; };
+		68E6D85F2B87D0FA00CAEC26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68E6D8652B87D0FA00CAEC26 /* CitiCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E6D8692B87D0FA00CAEC26 /* CitiCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiCodeChallengeTests.swift; sourceTree = "<group>"; };
+		68E6D86F2B87D0FA00CAEC26 /* CitiCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E6D8732B87D0FA00CAEC26 /* CitiCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiCodeChallengeUITests.swift; sourceTree = "<group>"; };
+		68E6D8752B87D0FA00CAEC26 /* CitiCodeChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiCodeChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E6D8512B87D0F700CAEC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E6D8622B87D0FA00CAEC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E6D86C2B87D0FA00CAEC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E6D84B2B87D0F700CAEC26 = {
+			isa = PBXGroup;
+			children = (
+				68E6D8562B87D0F700CAEC26 /* CitiCodeChallenge */,
+				68E6D8682B87D0FA00CAEC26 /* CitiCodeChallengeTests */,
+				68E6D8722B87D0FA00CAEC26 /* CitiCodeChallengeUITests */,
+				68E6D8552B87D0F700CAEC26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E6D8552B87D0F700CAEC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E6D8542B87D0F700CAEC26 /* CitiCodeChallenge.app */,
+				68E6D8652B87D0FA00CAEC26 /* CitiCodeChallengeTests.xctest */,
+				68E6D86F2B87D0FA00CAEC26 /* CitiCodeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E6D8562B87D0F700CAEC26 /* CitiCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				68E6D8572B87D0F700CAEC26 /* CitiCodeChallengeApp.swift */,
+				68E6D8592B87D0F700CAEC26 /* ContentView.swift */,
+				68E6D85B2B87D0FA00CAEC26 /* Assets.xcassets */,
+				68E6D85D2B87D0FA00CAEC26 /* CitiCodeChallenge.entitlements */,
+				68E6D85E2B87D0FA00CAEC26 /* Preview Content */,
+			);
+			path = CitiCodeChallenge;
+			sourceTree = "<group>";
+		};
+		68E6D85E2B87D0FA00CAEC26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68E6D85F2B87D0FA00CAEC26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68E6D8682B87D0FA00CAEC26 /* CitiCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				68E6D8692B87D0FA00CAEC26 /* CitiCodeChallengeTests.swift */,
+			);
+			path = CitiCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		68E6D8722B87D0FA00CAEC26 /* CitiCodeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68E6D8732B87D0FA00CAEC26 /* CitiCodeChallengeUITests.swift */,
+				68E6D8752B87D0FA00CAEC26 /* CitiCodeChallengeUITestsLaunchTests.swift */,
+			);
+			path = CitiCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E6D8532B87D0F700CAEC26 /* CitiCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E6D8792B87D0FA00CAEC26 /* Build configuration list for PBXNativeTarget "CitiCodeChallenge" */;
+			buildPhases = (
+				68E6D8502B87D0F700CAEC26 /* Sources */,
+				68E6D8512B87D0F700CAEC26 /* Frameworks */,
+				68E6D8522B87D0F700CAEC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitiCodeChallenge;
+			productName = CitiCodeChallenge;
+			productReference = 68E6D8542B87D0F700CAEC26 /* CitiCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68E6D8642B87D0FA00CAEC26 /* CitiCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E6D87C2B87D0FA00CAEC26 /* Build configuration list for PBXNativeTarget "CitiCodeChallengeTests" */;
+			buildPhases = (
+				68E6D8612B87D0FA00CAEC26 /* Sources */,
+				68E6D8622B87D0FA00CAEC26 /* Frameworks */,
+				68E6D8632B87D0FA00CAEC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E6D8672B87D0FA00CAEC26 /* PBXTargetDependency */,
+			);
+			name = CitiCodeChallengeTests;
+			productName = CitiCodeChallengeTests;
+			productReference = 68E6D8652B87D0FA00CAEC26 /* CitiCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68E6D86E2B87D0FA00CAEC26 /* CitiCodeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E6D87F2B87D0FA00CAEC26 /* Build configuration list for PBXNativeTarget "CitiCodeChallengeUITests" */;
+			buildPhases = (
+				68E6D86B2B87D0FA00CAEC26 /* Sources */,
+				68E6D86C2B87D0FA00CAEC26 /* Frameworks */,
+				68E6D86D2B87D0FA00CAEC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E6D8712B87D0FA00CAEC26 /* PBXTargetDependency */,
+			);
+			name = CitiCodeChallengeUITests;
+			productName = CitiCodeChallengeUITests;
+			productReference = 68E6D86F2B87D0FA00CAEC26 /* CitiCodeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E6D84C2B87D0F700CAEC26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					68E6D8532B87D0F700CAEC26 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					68E6D8642B87D0FA00CAEC26 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 68E6D8532B87D0F700CAEC26;
+					};
+					68E6D86E2B87D0FA00CAEC26 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 68E6D8532B87D0F700CAEC26;
+					};
+				};
+			};
+			buildConfigurationList = 68E6D84F2B87D0F700CAEC26 /* Build configuration list for PBXProject "CitiCodeChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E6D84B2B87D0F700CAEC26;
+			productRefGroup = 68E6D8552B87D0F700CAEC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E6D8532B87D0F700CAEC26 /* CitiCodeChallenge */,
+				68E6D8642B87D0FA00CAEC26 /* CitiCodeChallengeTests */,
+				68E6D86E2B87D0FA00CAEC26 /* CitiCodeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E6D8522B87D0F700CAEC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6D8602B87D0FA00CAEC26 /* Preview Assets.xcassets in Resources */,
+				68E6D85C2B87D0FA00CAEC26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E6D8632B87D0FA00CAEC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E6D86D2B87D0FA00CAEC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E6D8502B87D0F700CAEC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6D85A2B87D0F700CAEC26 /* ContentView.swift in Sources */,
+				68E6D8582B87D0F700CAEC26 /* CitiCodeChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E6D8612B87D0FA00CAEC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6D86A2B87D0FA00CAEC26 /* CitiCodeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E6D86B2B87D0FA00CAEC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6D8762B87D0FA00CAEC26 /* CitiCodeChallengeUITestsLaunchTests.swift in Sources */,
+				68E6D8742B87D0FA00CAEC26 /* CitiCodeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68E6D8672B87D0FA00CAEC26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E6D8532B87D0F700CAEC26 /* CitiCodeChallenge */;
+			targetProxy = 68E6D8662B87D0FA00CAEC26 /* PBXContainerItemProxy */;
+		};
+		68E6D8712B87D0FA00CAEC26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E6D8532B87D0F700CAEC26 /* CitiCodeChallenge */;
+			targetProxy = 68E6D8702B87D0FA00CAEC26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68E6D8772B87D0FA00CAEC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68E6D8782B87D0FA00CAEC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		68E6D87A2B87D0FA00CAEC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CitiCodeChallenge/CitiCodeChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CitiCodeChallenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.CitiCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E6D87B2B87D0FA00CAEC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CitiCodeChallenge/CitiCodeChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CitiCodeChallenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.CitiCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68E6D87D2B87D0FA00CAEC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.CitiCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitiCodeChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CitiCodeChallenge";
+			};
+			name = Debug;
+		};
+		68E6D87E2B87D0FA00CAEC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.CitiCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitiCodeChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CitiCodeChallenge";
+			};
+			name = Release;
+		};
+		68E6D8802B87D0FA00CAEC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.CitiCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitiCodeChallenge;
+			};
+			name = Debug;
+		};
+		68E6D8812B87D0FA00CAEC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.CitiCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitiCodeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E6D84F2B87D0F700CAEC26 /* Build configuration list for PBXProject "CitiCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E6D8772B87D0FA00CAEC26 /* Debug */,
+				68E6D8782B87D0FA00CAEC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E6D8792B87D0FA00CAEC26 /* Build configuration list for PBXNativeTarget "CitiCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E6D87A2B87D0FA00CAEC26 /* Debug */,
+				68E6D87B2B87D0FA00CAEC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E6D87C2B87D0FA00CAEC26 /* Build configuration list for PBXNativeTarget "CitiCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E6D87D2B87D0FA00CAEC26 /* Debug */,
+				68E6D87E2B87D0FA00CAEC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E6D87F2B87D0FA00CAEC26 /* Build configuration list for PBXNativeTarget "CitiCodeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E6D8802B87D0FA00CAEC26 /* Debug */,
+				68E6D8812B87D0FA00CAEC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E6D84C2B87D0F700CAEC26 /* Project object */;
+}
