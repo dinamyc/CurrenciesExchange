@@ -1,4 +1,9 @@
+Code Coverage
+<img width="1166" alt="Screenshot 2024-02-23 at 6 10 57 p m" src="https://github.com/dinamyc/CurrenciesExchange/assets/8076410/a4fd5d08-ed36-48e2-abff-bb188394432c">
+<img width="269" alt="Screenshot 2024-02-23 at 6 10 52 p m" src="https://github.com/dinamyc/CurrenciesExchange/assets/8076410/12618c26-4914-4853-8d41-f6b41886600a">
 
+
+=====To Take into account Aplied in all project ====
 SOLID Principles Applied with Clean Architecture
 
 This project follows the SOLID principles and implements a clean architecture approach to ensure maintainability, scalability, and testability.
